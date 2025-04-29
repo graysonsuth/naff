@@ -1,0 +1,9 @@
+name = "naff-website"
+compatibility_date = "2025-04-29"
+
+[build]
+command = "npm run build"
+output_dir = "build"
+
+[site]
+bucket = "./build"
