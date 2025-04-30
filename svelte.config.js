@@ -6,7 +6,7 @@ const config = {
   kit: {
     adapter: adapter({
       // If you want to prerender all pages at build time
-      fallback: 'index.html',
+      fallback: '/src/app.html',
       // Output directory for the static build
       pages: 'build'
     })
