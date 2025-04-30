@@ -1,9 +1,7 @@
 name = "naff"
 compatibility_date = "2025-04-29"
+main = "./.svelte-kit/cloudflare/_worker.js"
+workers_dev = true
 
-[build]
-command = "npm run build"
-output_dir = ".svelte-kit/cloudflare"
-
-[assets]
-directory = ".svelte-kit/cloudflare"
+[site]
+bucket = "./.svelte-kit/cloudflare"
