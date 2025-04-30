@@ -1,7 +1,6 @@
 name = "naff"
 compatibility_date = "2025-04-29"
 workers_dev = true
-main = "src/routes/+page.svelte"
 
 [build]
 command = "npm run build"
