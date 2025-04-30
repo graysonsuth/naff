@@ -22,6 +22,6 @@
    title="Sign Up"
    description="You can sign up via Eventfinda!"
    secondLinkText="Sign Up"
-   secondLinkUrl="/#"
+   secondLinkUrl="https://www.eventfinda.co.nz/2025/naff-screen-writing-workshop/whangarei"
 />
 
