@@ -1,5 +1,7 @@
 name = "naff"
 compatibility_date = "2025-04-29"
+main = "src/routes/+page.svelte"
+route = { pattern = "naff.graysonsutherland.workers.dev/*", zone_name = "naff.graysonsutherland.workers.dev" }
 main = "./.svelte-kit/cloudflare/_worker.js"
 
 [assets]
