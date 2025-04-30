@@ -1,7 +1,7 @@
 name = "naff"
 compatibility_date = "2025-04-29"
 main = "./.svelte-kit/cloudflare/_worker.js"
-workers_dev = true
 
-[site]
-bucket = "./.svelte-kit/cloudflare"
+[assets]
+browser_TTL = 31536000
+serve_single_page_app = true
