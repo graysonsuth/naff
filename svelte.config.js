@@ -5,13 +5,19 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
   kit: {
     adapter: adapter({
-      // If you want to prerender all pages at build time
-      fallback: '/src/app.html',
+      // Fallback file for non-existent pages
+      fallback: '200.html',
       // Output directory for the static build
-      pages: 'build'
-    })
+      pages: 'build',
+      assets: 'build' // Ensure assets are also output correctly
+    }),
+    paths: {
+      // Ensure correct base path if needed
+      base: '',
+    }
   },
   preprocess: vitePreprocess()
 };
 
 export default config;
+
