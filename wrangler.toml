@@ -3,5 +3,4 @@ compatibility_date = "2025-04-29"
 main = "./.svelte-kit/cloudflare/_worker.js"
 
 [assets]
-browser_TTL = 31536000
-serve_single_page_app = true
+directory = ".svelte-kit/cloudflare"
