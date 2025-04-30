@@ -1,23 +1,20 @@
-import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from '@sveltejs/adapter-cloudflare';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-  kit: {
-    adapter: adapter({
-      // Fallback file for non-existent pages
-      fallback: '200.html',
-      // Output directory for the static build
-      pages: 'build',
-      assets: 'build' // Ensure assets are also output correctly
-    }),
-    paths: {
-      // Ensure correct base path if needed
-      base: '',
-    }
-  },
-  preprocess: vitePreprocess()
+export default {
+	kit: {
+		adapter: adapter({
+			// See below for an explanation of these options
+			config: undefined,
+			platformProxy: {
+				configPath: undefined,
+				environment: undefined,
+				persist: undefined
+			},
+			fallback: 'plaintext',
+			routes: {
+				include: ['/*'],
+				exclude: ['<all>']
+			}
+		})
+	}
 };
-
-export default config;
-
