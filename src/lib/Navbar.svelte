@@ -13,9 +13,6 @@
             <a class="nav-link active big-shoulders-text-main" href="/join">Join</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active big-shoulders-text-main" href="/workshop">Screenwriting Workshop</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link active big-shoulders-text-main" href="/past-results">Past Results</a>
           </li>
           <li class="nav-item">
