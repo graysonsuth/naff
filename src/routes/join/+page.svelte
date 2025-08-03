@@ -52,8 +52,11 @@ and there are two age categories to enter under."
 
 <ContentBlock 
    title="How do I join?"
-   description="The 2025 competition opens for entries on Aug 1st 2025! Read the rules and regulations, and then enter your film!"
+   description="The 2025 competition has opened for entries! Read the rules, and then you can enter your team by clicking the entry link below."
+  linkUrl="https://forms.gle/4uiAgqwurWQETvya9"
+  linkText="Enter your team!"
    secondLinkUrl="/rules.pdf"
    secondLinkText="Read the rules and regulations!"
+
 />
 
