@@ -61,7 +61,7 @@ and there are two age categories to enter under."
 />
 
 <ContentBlock 
-   title="How do I submit my finished film??"
+   title="How do I submit my finished film?"
    description="You can submit your film by emailing us kiaora.naff@gmail.com with your team name and film."
 
 />
