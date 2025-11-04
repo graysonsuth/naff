@@ -14,29 +14,6 @@
 It's all about unleashing Te Tai Tokerau's creativity!"
 />
 
-
-<ContentBlock 
-   title="What's the timeline for the 2025 competition?"
-   description="The premiere for NAFF 2025 will be on November 20."
->
-  <table class="table big-shoulders-text-main">
-    <thead>
-      <tr>
-        <th scope="col">Info</th>
-        <th scope="col">Opens</th>
-        <th scope="col">Closes</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">Entries</th>
-        <td>1 Aug 2025</td>
-        <td>1 Nov 2025</td>
-      </tr>
-    </tbody>
-  </table>
-</ContentBlock>
-
 <ContentBlock 
    title="Info"
    description="You make a short film under 10 minutes,
@@ -52,17 +29,10 @@ and there are two age categories to enter under."
 
 <ContentBlock 
    title="How do I join?"
-   description="The 2025 competition has opened for entries! Read the rules, and then you can enter your team by clicking the entry link below."
-  linkUrl="https://forms.gle/4uiAgqwurWQETvya9"
-  linkText="Enter your team!"
+   description="We've not annouced the 2026 comp yet! Stay tuned!"
    secondLinkUrl="/rules.pdf"
    secondLinkText="Read the rules and regulations!"
 
 />
 
-<ContentBlock 
-   title="How do I submit my finished film?"
-   description="You can submit your film by emailing us kiaora.naff@gmail.com with your team name and film."
-
-/>
 

@@ -17,9 +17,7 @@
 
 <ContentBlock 
    title="About / Join in"
-   description="The 2025 competition opens for entries on Aug 1st 2025!"
-   secondLinkUrl="/join"
-   secondLinkText="Learn more!"
+   description="Keep an eye out for NAFF 2026 details (:"
 />
 
 <ContentBlock 
